@@ -1,0 +1,80 @@
+2.1 Query 1: Aggregate hospital discharges by year, gender, and diagnosis.
+sql
+2.1 Query 1: Aggregate hospital discharges by year, gender, and diagnosis.
+SELECT [Discharge Year], Gender, [CCSR Diagnosis Description], COUNT(*) AS total_discharges
+FROM Hospital_Inpatient_Discharges
+GROUP BY [Discharge Year], Gender, [CCSR Diagnosis Description];
+
+
+2.2 Query 2: Join Hospital Inpatient Discharge Data with Environmental Health Data by TimePeriod
+
+
+	SELECT 
+    e.TimePeriod, 
+    e.[Age-adjusted rate per 10000], 
+    COUNT(h.[Permanent Facility ID]) AS total_discharges
+FROM 
+    Hospital_Inpatient_Discharges h
+JOIN 
+    NYC_EH_DataPortal e ON h.[Discharge Year] = e.TimePeriod
+GROUP BY 
+    e.TimePeriod, 
+    e.[Age-adjusted rate per 10000]
+ORDER BY 
+    e.TimePeriod;
+
+2.3 Query 3: Query: Calculate Average Length of Stay and Average Total Charges
+SELECT 
+    [Geo Place Name], 
+    [Time Period], 
+    AVG(CAST([Data Value] AS FLOAT)) AS avg_air_quality
+FROM Air_Quality
+WHERE 
+    ISNUMERIC([Data Value]) = 1
+GROUP BY 
+    [Geo Place Name], 
+    [Time Period]
+ORDER BY 
+    [Geo Place Name], 
+    [Time Period];
+
+2.4 Query 4: Filter air quality data for pollutant levels in specific neighborhoods over time.
+
+SELECT 
+    [Geo Place Name], 
+    [Time Period], 
+    [Name], 
+    AVG(CAST([Data Value] AS FLOAT)) AS avg_pollutant_level
+FROM 
+    Air_Quality
+WHERE 
+    [Geo Place Name] IN ('Manhattan', 'Brooklyn') 
+    AND [Name] = 'Ozone (O3)'
+GROUP BY 
+    [Geo Place Name], 
+    [Time Period], 
+    [Name]
+ORDER BY 
+    [Geo Place Name], 
+    [Time Period];
+
+2.5 Query 5: Combine air quality and environmental health data to identify correlations between pollutant levels and health outcomes.
+
+SELECT 
+    [Geo Place Name], 
+    [Time Period], 
+    [Name], 
+    AVG(CAST([Data Value] AS FLOAT)) AS avg_pollutant_level
+FROM 
+    Air_Quality
+WHERE 
+    [Geo Place Name] IN ('Manhattan', 'Brooklyn') 
+    AND [Name] = 'Nitrogen Dioxide (NO2)'
+GROUP BY 
+    [Geo Place Name], 
+    [Time Period], 
+    [Name]
+ORDER BY 
+    [Geo Place Name], 
+    [Time Period];
+
