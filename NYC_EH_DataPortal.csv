@@ -1,0 +1,97 @@
+TimePeriod,GeoTypeDesc,GeoID,GeoRank,Geography,Age-adjusted rate per 10000,Estimated annual rate per 10000,Number
+2022,Citywide,1,0,New York City,54.9,53.6,"35,778"
+2022,Borough,1,1,Bronx,114,113.2,"11,850"
+2022,Borough,2,1,Brooklyn,52.4,51.2,"10,351"
+2022,Borough,3,1,Manhattan,50.1,48.8,"6,700"
+2022,Borough,4,1,Queens,31.1,29.8,"5,479"
+2022,Borough,5,1,Staten Island,38.2,36.1,"1,398"
+2022,UHF 42,101,4,Kingsbridge - Riverdale,41.4,39.5,286
+2022,UHF 42,102,4,Northeast Bronx,93.1,88.3,"1,395"
+2022,UHF 42,103,4,Fordham - Bronx Pk,90.4,90.8,"1,737"
+2022,UHF 42,104,4,Pelham - Throgs Neck,78.1,76.6,"1,706"
+2022,UHF 42,105,4,Crotona -Tremont,153.8,154.5,"2,337"
+2022,UHF 42,106,4,High Bridge - Morrisania,160.1,159.8,"2,457"
+2022,UHF 42,107,4,Hunts Point - Mott Haven,175.5,174.9,"1,750"
+2022,UHF 42,201,4,Greenpoint,30.9,27.4,298
+2022,UHF 42,202,4,Downtown - Heights - Slope,38,35.8,762
+2022,UHF 42,203,4,Bedford Stuyvesant - Crown Heights,90.9,89.8,"2,414"
+2022,UHF 42,204,4,East New York,95.1,94.5,"1,403"
+2022,UHF 42,205,4,Sunset Park,31.7,31.2,288
+2022,UHF 42,206,4,Borough Park,14.8,14.6,340
+2022,UHF 42,207,4,East Flatbush - Flatbush,70.5,68.1,"1,589"
+2022,UHF 42,208,4,Canarsie - Flatlands,54.6,51.2,829
+2022,UHF 42,209,4,Bensonhurst - Bay Ridge,13.3,12.6,207
+2022,UHF 42,210,4,Coney Island - Sheepshead Bay,29.3,26.6,615
+2022,UHF 42,211,4,Williamsburg - Bushwick,86.7,84.5,"1,429"
+2022,UHF 42,301,4,Washington Heights,45.1,44.7,983
+2022,UHF 42,302,4,Central Harlem - Morningside Heights,139,139,"2,045"
+2022,UHF 42,303,4,East Harlem,155.3,152.7,"1,384"
+2022,UHF 42,304,4,Upper West Side,24.5,22.3,416
+2022,UHF 42,305,4,Upper East Side,15.5,14.3,248
+2022,UHF 42,306,4,Chelsea - Clinton,33.6,32.3,455
+2022,UHF 42,307,4,Gramercy Park - Murray Hill,14.8,13.8,167
+2022,UHF 42,308,4,Greenwich Village - SoHo,9,8.9,61
+2022,UHF 42,309,4,Union Square - Lower East Side,36.7,36.2,589
+2022,UHF 42,310,4,Lower Manhattan,25.2,22.2,118
+2022,UHF 42,401,4,Long Island City - Astoria,31.6,30.6,514
+2022,UHF 42,402,4,West Queens,21.1,20.6,747
+2022,UHF 42,403,4,Flushing - Clearview,12.2,10.8,226
+2022,UHF 42,404,4,Bayside - Little Neck,10.3,9.8,72
+2022,UHF 42,405,4,Ridgewood - Forest Hills,19.3,18,373
+2022,UHF 42,406,4,Fresh Meadows,18.9,17.7,136
+2022,UHF 42,407,4,Southwest Queens,32.3,31.7,695
+2022,UHF 42,408,4,Jamaica,49.5,47.5,"1,220"
+2022,UHF 42,409,4,Southeast Queens,31.8,30.1,525
+2022,UHF 42,410,4,Rockaways,83.2,76.8,755
+2022,UHF 42,501,4,Port Richmond,79.2,78.6,421
+2022,UHF 42,502,4,Stapleton - St. George,59.8,57.6,589
+2022,UHF 42,503,4,Willowbrook,21,19.6,149
+2022,UHF 42,504,4,South Beach - Tottenville,15.1,14.3,222
+2021,Citywide,1,0,New York City,49.7,48.6,"32,738"
+2021,Borough,1,1,Bronx,99.3,98.9,"10,641"
+2021,Borough,2,1,Brooklyn,44.9,43.9,"8,997"
+2021,Borough,3,1,Manhattan,49.7,48.2,"6,515"
+2021,Borough,4,1,Queens,29.9,28.6,"5,358"
+2021,Borough,5,1,Staten Island,33.7,31.6,"1,227"
+2021,UHF 42,101,4,Kingsbridge - Riverdale,35.2,33.5,249
+2021,UHF 42,102,4,Northeast Bronx,82.9,78.2,"1,266"
+2021,UHF 42,103,4,Fordham - Bronx Pk,74.9,75.7,"1,489"
+2021,UHF 42,104,4,Pelham - Throgs Neck,70.3,69.6,"1,593"
+2021,UHF 42,105,4,Crotona -Tremont,140.3,140.9,"2,190"
+2021,UHF 42,106,4,High Bridge - Morrisania,136.5,136.7,"2,159"
+2021,UHF 42,107,4,Hunts Point - Mott Haven,145.9,145.9,"1,499"
+2021,UHF 42,201,4,Greenpoint,22.6,20.1,221
+2021,UHF 42,202,4,Downtown - Heights - Slope,35.5,32,688
+2021,UHF 42,203,4,Bedford Stuyvesant - Crown Heights,77,76,"2,081"
+2021,UHF 42,204,4,East New York,70.6,70.4,"1,065"
+2021,UHF 42,205,4,Sunset Park,32.3,32.1,300
+2021,UHF 42,206,4,Borough Park,10.7,10.4,245
+2021,UHF 42,207,4,East Flatbush - Flatbush,65.4,63.1,"1,497"
+2021,UHF 42,208,4,Canarsie - Flatlands,42,39.8,657
+2021,UHF 42,209,4,Bensonhurst - Bay Ridge,9.3,8.6,143
+2021,UHF 42,210,4,Coney Island - Sheepshead Bay,25.4,23,535
+2021,UHF 42,211,4,Williamsburg - Bushwick,80.1,77.8,"1,335"
+2021,UHF 42,301,4,Washington Heights,42,41.7,909
+2021,UHF 42,302,4,Central Harlem - Morningside Heights,136.2,136.6,"1,991"
+2021,UHF 42,303,4,East Harlem,152.6,150.7,"1,355"
+2021,UHF 42,304,4,Upper West Side,21.5,19.4,356
+2021,UHF 42,305,4,Upper East Side,13.8,12.2,208
+2021,UHF 42,306,4,Chelsea - Clinton,36.5,35.3,487
+2021,UHF 42,307,4,Gramercy Park - Murray Hill,18.3,16.3,193
+2021,UHF 42,308,4,Greenwich Village - SoHo,8,8,54
+2021,UHF 42,309,4,Union Square - Lower East Side,39.2,38.2,607
+2021,UHF 42,310,4,Lower Manhattan,33.1,28.7,148
+2021,UHF 42,401,4,Long Island City - Astoria,29.9,28.9,497
+2021,UHF 42,402,4,West Queens,23.2,22.9,842
+2021,UHF 42,403,4,Flushing - Clearview,11.7,10.3,218
+2021,UHF 42,404,4,Bayside - Little Neck,6,5.9,44
+2021,UHF 42,405,4,Ridgewood - Forest Hills,17.5,16.1,339
+2021,UHF 42,406,4,Fresh Meadows,16.8,16.1,125
+2021,UHF 42,407,4,Southwest Queens,31.6,31.2,696
+2021,UHF 42,408,4,Jamaica,48.3,46.4,"1,214"
+2021,UHF 42,409,4,Southeast Queens,32.8,29.8,530
+2021,UHF 42,410,4,Rockaways,74.9,69.5,699
+2021,UHF 42,501,4,Port Richmond,75,75.2,404
+2021,UHF 42,502,4,Stapleton - St. George,48.4,45.7,467
+2021,UHF 42,503,4,Willowbrook,21.3,18.6,141
+2021,UHF 42,504,4,South Beach - Tottenville,13.8,13,203
